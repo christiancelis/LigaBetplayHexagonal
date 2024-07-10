@@ -2,7 +2,16 @@ package match.domain;
 
 import java.sql.Time;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
+
+import card.Card;
+import goal.Goal;
+import incident.Incident;
+import referee.Referee;
+import resut.Result;
+import stadium.Stadium;
+import team.Team;
 
 
 public class Match {
@@ -17,8 +26,7 @@ public class Match {
     private List<Card> lstTarjetas;
     private List<Incident> lstIncidentes;
     private Result resultado;
-
-
+    
     public Match() {
         this.lstGoles = new ArrayList<>();
         this.lstTarjetas = new ArrayList<>();
